@@ -34,6 +34,8 @@ dependencies {
     implementation("com.github.yoep:spring-boot-starter-javafx:2.0.0")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     implementation("com.h2database:h2")
+    implementation("org.mindrot:jbcrypt:0.4")
+    implementation("org.springframework.boot:spring-boot-starter-validation")
 }
 
 javafx {
